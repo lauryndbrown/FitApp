@@ -11,3 +11,16 @@ def about(request):
 def game(request):
     context = []
     return render(request, 'game.html', context)
+
+def character(request):
+    context = []
+    return render(request, 'game.html', context)
+
+def shop(request):
+    context = []
+    return render(request, 'shop.html', context)
+
+def adventure(request):
+    context = []
+    return render(request, 'adventure.html', context)
+

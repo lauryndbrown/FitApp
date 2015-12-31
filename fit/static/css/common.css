@@ -4,3 +4,9 @@ body{
 a.navbar-brand,ul.navbar-right{
         font-family: 'Righteous', cursive;
 }
+.nav-pills li.active a{
+    background-color:#6fcab9;
+}
+a{
+        color:#4B9385;
+}
