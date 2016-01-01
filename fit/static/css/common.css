@@ -10,3 +10,10 @@ a.navbar-brand,ul.navbar-right{
 a{
         color:#4B9385;
 }
+.color-swatch {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    border-radius: 3px;
+}

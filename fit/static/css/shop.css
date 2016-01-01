@@ -1,0 +1,8 @@
+.color-swatch {
+    float: left;
+    width: 10em;
+    height: 10em;
+    margin: 0 5px;
+    border-radius: 3px;
+    background-color:#eee;
+}

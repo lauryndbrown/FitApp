@@ -44,6 +44,14 @@
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
           </form>
+          <div>
+      {{ user }}
+      {% if user.is_anonymous %}
+      <a href="{% url 'django.contrib.auth.views.login' %}">login</a>
+      {% else %}
+      <a href="{% url 'django.contrib.auth.views.logout' %}">logout</a>
+      {% endif %}
+    </div>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
