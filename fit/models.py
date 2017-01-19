@@ -10,5 +10,5 @@ class Character(models.Model):
     endurance = models.IntegerField(default=5)
     dexterity = models.IntegerField(default=5)
     willpower = models.IntegerField(default=5)
-    
+    user = models.OneToOneField(User, on_delete=models.CASCADE) 
 
